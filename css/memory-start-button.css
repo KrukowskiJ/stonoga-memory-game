@@ -1,0 +1,21 @@
+.buttonz{
+  display: inline-block;
+  justify-content: center;
+
+  position: relative;
+
+	margin-top: 310px;
+}
+.start-button{
+  border-radius: 20px;
+  background-color: #4CAF50;
+  height: 70px;
+	outline: none;
+  text-align: center;
+  font-size: 30px;
+	width: 250px;
+	cursor: pointer;
+  color: #FFF;
+	position: relative;
+
+}
