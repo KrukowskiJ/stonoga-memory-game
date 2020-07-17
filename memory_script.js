@@ -100,10 +100,6 @@ const  memoryGame = {
     },
 
     deleteTiles : function() {
-        //dodanie do popupa odpowiedniego zdjęcia z komentarzem
-        const indexOfImage = this.tilesChecked[0].dataset.cardType;
-
-
         this.tilesChecked[0].remove();
         this.tilesChecked[1].remove();
         this.canGet = true;
